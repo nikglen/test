@@ -1,0 +1,18 @@
+set cut_paste_input [stack 0]
+version 14.1 v8
+Read {
+ inputs 0
+ file_type png
+ file /fileserver/prod/PROJECTS/PW/workspace/000/000/work/nuke/renders/PW_000_000_precomp_EAL1700/v000/PW_000_000_precomp_EAL1700_v000.%04d.png
+ localizationPolicy off
+ first 1001
+ last 1127
+ origfirst 1001
+ origlast 1127
+ origset true
+ name Read15
+ label "Frame Length:\[expr \[value last]-\[value first]+1]"
+ selected true
+ xpos 5570
+ ypos 2355
+}
